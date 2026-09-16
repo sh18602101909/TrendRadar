@@ -1,0 +1,186 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 285</p><p>生成时间: 2026-09-16 15:05:48</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">国产 中国</td>
+                    <td class="count">11</td>
+                    <td class="percentage">3.86%</td>
+                    <td class="titles"><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2652172" target="_blank" class="news-link">中国男篮vs沙特</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时05分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2082841016533632412" target="_blank" class="news-link">平陆运河正式通航，广西从此江海直连，这条设想了近百年的运河建设难度有多大？它能「带飞」中国西南吗？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时05分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://v.ifeng.com/c/8wSeX6t1Bb4" target="_blank" class="news-link">扎哈罗娃再秀中文：我的父母正在中国旅游</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时05分</font></div><br><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28364478&amp;amp;topic_name=%E9%9F%A9%E7%BD%91%E9%80%A0%E8%B0%A3%E4%B8%AD%E5%9B%BD%E4%BA%BA%E4%B8%8D%E4%BC%9A%E5%86%99%E6%B1%89%E5%AD%97" target="_blank" class="news-link">韩网造谣中国人不会写汉字</a> [6] <font color='grey'>- 15时05分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%9B%B4%E5%87%BB%E4%B8%AD%E5%9B%BD%E4%BB%A3%E8%A1%A8%E5%9B%A2%E5%87%BA%E5%BE%81%E4%BA%9A%E8%BF%90%E4%BC%9A" target="_blank" class="news-link">直击中国代表团出征亚运会</a> [9] <font color='grey'>- 15时05分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7686000061330755108/" target="_blank" class="news-link">中国女排击败菲律宾斩获亚运开门红</a> [13] <font color='grey'>- 15时05分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E5%A5%B3%E6%8E%92%E4%BA%9A%E8%BF%90%E4%BC%9A%E5%BC%80%E9%97%A8%E7%BA%A2" target="_blank" class="news-link">中国女排亚运会开门红</a> [18] <font color='grey'>- 15时05分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E4%B8%AD%E5%9B%BD%E5%A5%B3%E5%AD%90%E9%A6%96%E5%B0%94%E5%95%86%E5%9C%BA%E5%87%BA%E6%89%8B%E6%89%93%E7%99%BD%E4%BA%BA&amp;t=31&amp;band_rank=20&amp;Refer=top" target="_blank" class="news-link">中国女子首尔商场出手打白人</a> [20] <font color='grey'>- 15时05分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E2%80%9C%E8%AE%A2%E5%8D%95%E7%BB%95%E4%BA%86%E4%B8%80%E5%9C%88%E8%BF%98%E6%98%AF%E5%9B%9E%E5%88%B0%E4%B8%AD%E5%9B%BD%E2%80%9D" target="_blank" class="news-link">“订单绕了一圈还是回到中国”</a> [22] <font color='grey'>- 15时05分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BE%8E%E5%AA%92%EF%BC%9A%E4%B8%AD%E5%9B%BD%E5%AD%A9%E5%AD%90%E6%AF%94%E7%BE%8E%E5%9B%BD%E5%AD%A9%E5%AD%90%E5%BC%BA" target="_blank" class="news-link">美媒：中国孩子比美国孩子强</a> [24] <font color='grey'>- 15时05分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E5%A4%9A%E4%BA%86%E6%9D%A1%E2%80%9C%E5%A4%A7%E6%B2%B3%E2%80%9D" target="_blank" class="news-link">中国多了条“大河”</a> [27] <font color='grey'>- 15时05分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">7</td>
+                    <td class="percentage">2.46%</td>
+                    <td class="titles">[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_34074387" target="_blank" class="news-link">AI“减速”争论中，华尔街热议万亿美元资本开支去向，算力需求会消失吗？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时05分</font><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%85%A8%E7%90%83%E9%A6%96%E6%AC%BEAI%E6%99%BA%E8%83%BD%E4%BD%93%E6%89%8B%E6%9C%BA%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83" target="_blank" class="news-link">全球首款AI智能体手机正式发布</a> [6] <font color='grey'>- 15时05分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2484309" target="_blank" class="news-link">9月16日投资避雷针：4连板人气股提示风险 AI安全产品营收占比不超2%</a> [11] <font color='grey'>- 15时05分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=AI%E7%BB%99%E6%95%B0%E5%AD%A6%E5%B8%A6%E6%9D%A5%E4%BB%80%E4%B9%88%E5%BD%B1%E5%93%8D" target="_blank" class="news-link">AI给数学带来什么影响</a> [16] <font color='grey'>- 15时05分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E6%9C%80%E6%83%B3%E6%89%8B%E6%9C%BAAI%E6%9B%BF%E6%88%91%E5%8A%9E%E7%9A%84%E4%BA%8B%23&amp;t=31&amp;band_rank=17&amp;Refer=top" target="_blank" class="news-link">最想手机AI替我办的事</a> [17] <font color='grey'>- 15时05分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=AI%E7%9F%AD%E7%89%87%E8%80%81%E7%A7%A6" target="_blank" class="news-link">AI短片老秦</a> [22] <font color='grey'>- 15时05分</font></div><br>[贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28364278&amp;amp;topic_name=%E6%98%BE%E5%8D%A1%E6%88%90%E5%A5%A2%E5%93%81%2C%E5%8D%83%E5%BC%A05090%E8%B7%91AI" target="_blank" class="news-link">显卡成奢品,千张5090跑AI</a> [26] <font color='grey'>- 15时05分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">科技</td>
+                    <td class="count">5</td>
+                    <td class="percentage">1.75%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2484266" target="_blank" class="news-link">【早报】标普500创8月份以来收盘新低；国际油价大涨；商业银行科技贷款统计口径面临收紧</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时05分</font><br><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/SH688008" target="_blank" class="news-link">澜起科技</a> [21] <font color='grey'>- 15时05分</font></div><br><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/SZ000021" target="_blank" class="news-link">深科技</a> [24] <font color='grey'>- 15时05分</font></div><br>[雪球] <a href="https://xueqiu.com/s/SZ300209" target="_blank" class="news-link">行云科技</a> [26] <font color='grey'>- 15时05分</font><br><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/SH688825" target="_blank" class="news-link">长鑫科技</a> [29] <font color='grey'>- 15时05分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">美国</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.05%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3781823" target="_blank" class="news-link">1票之差！“里程碑”式数字货币法案未能通过美国参议院，币圈遭重击</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时05分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8wRO43rgucw" target="_blank" class="news-link">美国称已有在轨太空武器，中方是否也有此类武器？外交部回应</a> [8] <font color='grey'>- 15时05分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2484227" target="_blank" class="news-link">60票门槛未过！美国参议院阻击《清晰法案》 加密监管立法陷入停滞</a> [9] <font color='grey'>- 15时05分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">DeepSeek 梁文锋</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.7%</td>
+                    <td class="titles"><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28364468&amp;amp;topic_name=deepseek%E5%B7%A5%E7%A8%8B%E5%B8%88%E8%87%AA%E5%98%B2%E8%A2%ABAI%E5%8F%96%E4%BB%A3" target="_blank" class="news-link">deepseek工程师自嘲被AI取代</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3781850" target="_blank" class="news-link">DeepSeek核心工程师长文刷屏：《我不得不把才华埋葬在昨天》</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时05分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">华为 任正非 鸿蒙 HarmonyOS</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.7%</td>
+                    <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2083488210672250940" target="_blank" class="news-link">华为高层被曝称核心并非拥有自研大模型，而是让任何大模型均能在昇腾、鲲鹏、超节点上高效运行，怎样解读？</a> [6] <font color='grey'>- 15时05分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%8D%8E%E4%B8%BA%E9%AB%98%E5%B1%82%EF%BC%9A14%E4%BA%BF%E4%BA%BA%E5%B8%82%E5%9C%BA%E8%B6%B3%E4%BB%A5%E6%94%AF%E6%92%91%E7%94%9F%E5%AD%98" target="_blank" class="news-link">华为高层：14亿人市场足以支撑生存</a> [20] <font color='grey'>- 15时05分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">马斯克 特斯拉</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.7%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3781794" target="_blank" class="news-link">马斯克提出AI安全新思路：与其等政府出手，不如让竞争对手互相&quot;找茬&quot;</a> [9] <font color='grey'>- 15时05分</font><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%89%B9%E6%96%AF%E6%8B%89Cybercab%E5%9B%BD%E5%86%85%E7%8B%AC%E5%AE%B6%E4%BD%93%E9%AA%8C" target="_blank" class="news-link">特斯拉Cybercab国内独家体验</a> [12] <font color='grey'>- 15时05分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.7%</td>
+                    <td class="titles">[凤凰网] <a href="https://news.ifeng.com/c/8wSWne5GO3Z" target="_blank" class="news-link">特朗普真急了，一个电话打到黄仁勋那里</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时05分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2484303" target="_blank" class="news-link">AI安全之争愈演愈烈！黄仁勋：无需任何新法律 安全与速度可兼得</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时05分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">苹果 库克 iphone ipad mac ios</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.7%</td>
+                    <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=iPhone%E4%B8%BA%E4%BD%95%E4%B8%8D%E8%83%BD%E5%8F%B3%E6%BB%91%E8%BF%94%E5%9B%9E" target="_blank" class="news-link">iPhone为何不能右滑返回</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时05分</font></div><br>[今日头条] <a href="https://www.toutiao.com/trending/7685666535863569946/" target="_blank" class="news-link">iOS 27表现如何</a> [21] <font color='grey'>- 15时05分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>10</td>
+                    <td class="word">手机</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.7%</td>
+                    <td class="titles">[贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28364410&amp;amp;topic_name=%E4%B8%AD%E5%BC%8F%E6%81%90%E6%80%96%21%E4%B8%8A%E5%A4%A7%E5%AD%A6%E4%B8%8D%E7%BB%99%E4%B9%B0%E6%89%8B%E6%9C%BA" target="_blank" class="news-link">中式恐怖!上大学不给买手机</a> [8] <font color='grey'>- 15时05分</font><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2484289" target="_blank" class="news-link">珠海向全市发文：坚决拒绝向未成年人违规提供手机（卡）、平板电脑等智能终端设备的租赁服务</a> [12] <font color='grey'>- 15时05分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>11</td>
+                    <td class="word">A股</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.7%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2484425" target="_blank" class="news-link">A股缩量，ETF资金反而“由出转入”，市场风向标显现5个新特征</a> [6] <font color='grey'>- 15时05分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=A%E8%82%A1%E7%A7%91%E5%88%9B50%E5%A4%A7%E6%B6%A84.5%25&amp;t=31&amp;band_rank=19&amp;Refer=top" target="_blank" class="news-link">A股科创50大涨4.5%</a> [19] <font color='grey'>- 15时05分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>12</td>
+                    <td class="word">胖东来 于东来</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.35%</td>
+                    <td class="titles">[贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28364277&amp;amp;topic_name=%E8%83%96%E4%B8%9C%E6%9D%A5%E5%91%98%E5%B7%A5%E5%AE%9E%E8%A1%8C%E5%9B%9B%E5%B9%B4%E5%90%88%E5%90%8C%E5%88%B6" target="_blank" class="news-link">胖东来员工实行四年合同制</a> [16] <font color='grey'>- 15时05分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>13</td>
+                    <td class="word">宇树 王兴兴</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.35%</td>
+                    <td class="titles">[雪球] <a href="https://xueqiu.com/s/SH688836" target="_blank" class="news-link">宇树科技-W</a> [6] <font color='grey'>- 15时05分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>14</td>
+                    <td class="word">京东 刘强东</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.35%</td>
+                    <td class="titles"><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/SZ000725" target="_blank" class="news-link">京东方A</a> [28] <font color='grey'>- 15时05分</font></div></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 29 条)</h3>
+            <h4>今日头条 (1 条)</h4><ul><li><a href="https://www.toutiao.com/trending/7686000061330755108/" target="_blank" class="news-link">中国女排击败菲律宾斩获亚运开门红</a> [13]</li></ul><h4>百度热搜 (5 条)</h4><ul><li><a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E5%A5%B3%E6%8E%92%E4%BA%9A%E8%BF%90%E4%BC%9A%E5%BC%80%E9%97%A8%E7%BA%A2" target="_blank" class="news-link">中国女排亚运会开门红</a> [18]</li><li><a href="https://www.baidu.com/s?wd=%E5%8D%8E%E4%B8%BA%E9%AB%98%E5%B1%82%EF%BC%9A14%E4%BA%BF%E4%BA%BA%E5%B8%82%E5%9C%BA%E8%B6%B3%E4%BB%A5%E6%94%AF%E6%92%91%E7%94%9F%E5%AD%98" target="_blank" class="news-link">华为高层：14亿人市场足以支撑生存</a> [20]</li><li><a href="https://www.baidu.com/s?wd=%E2%80%9C%E8%AE%A2%E5%8D%95%E7%BB%95%E4%BA%86%E4%B8%80%E5%9C%88%E8%BF%98%E6%98%AF%E5%9B%9E%E5%88%B0%E4%B8%AD%E5%9B%BD%E2%80%9D" target="_blank" class="news-link">“订单绕了一圈还是回到中国”</a> [22]</li><li><a href="https://www.baidu.com/s?wd=%E7%BE%8E%E5%AA%92%EF%BC%9A%E4%B8%AD%E5%9B%BD%E5%AD%A9%E5%AD%90%E6%AF%94%E7%BE%8E%E5%9B%BD%E5%AD%A9%E5%AD%90%E5%BC%BA" target="_blank" class="news-link">美媒：中国孩子比美国孩子强</a> [24]</li><li><a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E5%A4%9A%E4%BA%86%E6%9D%A1%E2%80%9C%E5%A4%A7%E6%B2%B3%E2%80%9D" target="_blank" class="news-link">中国多了条“大河”</a> [27]</li></ul><h4>华尔街见闻 (1 条)</h4><ul><li><a href="https://wallstreetcn.com/articles/3781850" target="_blank" class="news-link">DeepSeek核心工程师长文刷屏：《我不得不把才华埋葬在昨天》</a> <font color='red'><strong>[5]</strong></font></li></ul><h4>bilibili 热搜 (6 条)</h4><ul><li><a href="https://search.bilibili.com/all?keyword=iPhone%E4%B8%BA%E4%BD%95%E4%B8%8D%E8%83%BD%E5%8F%B3%E6%BB%91%E8%BF%94%E5%9B%9E" target="_blank" class="news-link">iPhone为何不能右滑返回</a> <font color='red'><strong>[3]</strong></font></li><li><a href="https://search.bilibili.com/all?keyword=%E5%85%A8%E7%90%83%E9%A6%96%E6%AC%BEAI%E6%99%BA%E8%83%BD%E4%BD%93%E6%89%8B%E6%9C%BA%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83" target="_blank" class="news-link">全球首款AI智能体手机正式发布</a> [6]</li><li><a href="https://search.bilibili.com/all?keyword=%E7%9B%B4%E5%87%BB%E4%B8%AD%E5%9B%BD%E4%BB%A3%E8%A1%A8%E5%9B%A2%E5%87%BA%E5%BE%81%E4%BA%9A%E8%BF%90%E4%BC%9A" target="_blank" class="news-link">直击中国代表团出征亚运会</a> [9]</li><li><a href="https://search.bilibili.com/all?keyword=%E7%89%B9%E6%96%AF%E6%8B%89Cybercab%E5%9B%BD%E5%86%85%E7%8B%AC%E5%AE%B6%E4%BD%93%E9%AA%8C" target="_blank" class="news-link">特斯拉Cybercab国内独家体验</a> [12]</li><li><a href="https://search.bilibili.com/all?keyword=AI%E7%BB%99%E6%95%B0%E5%AD%A6%E5%B8%A6%E6%9D%A5%E4%BB%80%E4%B9%88%E5%BD%B1%E5%93%8D" target="_blank" class="news-link">AI给数学带来什么影响</a> [16]</li><li><a href="https://search.bilibili.com/all?keyword=AI%E7%9F%AD%E7%89%87%E8%80%81%E7%A7%A6" target="_blank" class="news-link">AI短片老秦</a> [22]</li></ul><h4>财联社热门 (3 条)</h4><ul><li><a href="https://www.cls.cn/detail/2484425" target="_blank" class="news-link">A股缩量，ETF资金反而“由出转入”，市场风向标显现5个新特征</a> [6]</li><li><a href="https://www.cls.cn/detail/2484309" target="_blank" class="news-link">9月16日投资避雷针：4连板人气股提示风险 AI安全产品营收占比不超2%</a> [11]</li><li><a href="https://www.cls.cn/detail/2484289" target="_blank" class="news-link">珠海向全市发文：坚决拒绝向未成年人违规提供手机（卡）、平板电脑等智能终端设备的租赁服务</a> [12]</li></ul><h4>凤凰网 (1 条)</h4><ul><li><a href="https://v.ifeng.com/c/8wSeX6t1Bb4" target="_blank" class="news-link">扎哈罗娃再秀中文：我的父母正在中国旅游</a> <font color='red'><strong>[5]</strong></font></li></ul><h4>贴吧 (2 条)</h4><ul><li><a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28364468&amp;amp;topic_name=deepseek%E5%B7%A5%E7%A8%8B%E5%B8%88%E8%87%AA%E5%98%B2%E8%A2%ABAI%E5%8F%96%E4%BB%A3" target="_blank" class="news-link">deepseek工程师自嘲被AI取代</a> <font color='red'><strong>[4]</strong></font></li><li><a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28364478&amp;amp;topic_name=%E9%9F%A9%E7%BD%91%E9%80%A0%E8%B0%A3%E4%B8%AD%E5%9B%BD%E4%BA%BA%E4%B8%8D%E4%BC%9A%E5%86%99%E6%B1%89%E5%AD%97" target="_blank" class="news-link">韩网造谣中国人不会写汉字</a> [6]</li></ul><h4>微博 (3 条)</h4><ul><li><a href="https://s.weibo.com/weibo?q=%23%E6%9C%80%E6%83%B3%E6%89%8B%E6%9C%BAAI%E6%9B%BF%E6%88%91%E5%8A%9E%E7%9A%84%E4%BA%8B%23&amp;t=31&amp;band_rank=17&amp;Refer=top" target="_blank" class="news-link">最想手机AI替我办的事</a> [17]</li><li><a href="https://s.weibo.com/weibo?q=A%E8%82%A1%E7%A7%91%E5%88%9B50%E5%A4%A7%E6%B6%A84.5%25&amp;t=31&amp;band_rank=19&amp;Refer=top" target="_blank" class="news-link">A股科创50大涨4.5%</a> [19]</li><li><a href="https://s.weibo.com/weibo?q=%E4%B8%AD%E5%9B%BD%E5%A5%B3%E5%AD%90%E9%A6%96%E5%B0%94%E5%95%86%E5%9C%BA%E5%87%BA%E6%89%8B%E6%89%93%E7%99%BD%E4%BA%BA&amp;t=31&amp;band_rank=20&amp;Refer=top" target="_blank" class="news-link">中国女子首尔商场出手打白人</a> [20]</li></ul><h4>抖音 (1 条)</h4><ul><li><a href="https://www.douyin.com/hot/2652172" target="_blank" class="news-link">中国男篮vs沙特</a> <font color='red'><strong>[2]</strong></font></li></ul><h4>知乎 (2 条)</h4><ul><li><a href="https://www.zhihu.com/question/2082841016533632412" target="_blank" class="news-link">平陆运河正式通航，广西从此江海直连，这条设想了近百年的运河建设难度有多大？它能「带飞」中国西南吗？</a> <font color='red'><strong>[2]</strong></font></li><li><a href="https://www.zhihu.com/question/2083488210672250940" target="_blank" class="news-link">华为高层被曝称核心并非拥有自研大模型，而是让任何大模型均能在昇腾、鲲鹏、超节点上高效运行，怎样解读？</a> [6]</li></ul><h4>雪球 (4 条)</h4><ul><li><a href="https://xueqiu.com/s/SH688008" target="_blank" class="news-link">澜起科技</a> [21]</li><li><a href="https://xueqiu.com/s/SZ000021" target="_blank" class="news-link">深科技</a> [24]</li><li><a href="https://xueqiu.com/s/SZ000725" target="_blank" class="news-link">京东方A</a> [28]</li><li><a href="https://xueqiu.com/s/SH688825" target="_blank" class="news-link">长鑫科技</a> [29]</li></ul></div>
+        </body>
+        </html>
+        
