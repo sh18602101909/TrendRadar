@@ -1,0 +1,178 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 285</p><p>生成时间: 2026-11-11 10:04:09</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">10</td>
+                    <td class="percentage">3.51%</td>
+                    <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%BA%AC%E5%BD%A9%E6%8B%8D%E6%A1%A3CityPair%23&amp;t=31&amp;band_rank=3&amp;Refer=top" target="_blank" class="news-link">京彩拍档CityPair</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 10时04分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3785662" target="_blank" class="news-link">美国人民不是在反对AI，他们只是想睡个整觉</a> [10] <font color='grey'>- 10时04分</font></div><br>[财联社热门] <a href="https://www.cls.cn/detail/2530639" target="_blank" class="news-link">AI交易遭遇抛售潮后 全球资金盯上新兴市场低估值资产</a> [10] <font color='grey'>- 10时04分</font><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2530830" target="_blank" class="news-link">太空AI加速备战：SpaceX订购太阳能产线，星舰挑战首次“双回收”</a> [11] <font color='grey'>- 10时04分</font></div><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E8%AE%A9%E4%B9%9D%E4%B8%AAAI%E5%A4%A7%E6%A8%A1%E5%9E%8B%E7%8E%A9%E9%80%A0%E6%A1%A5" target="_blank" class="news-link">让九个AI大模型玩造桥</a> [13] <font color='grey'>- 10时04分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_34446211" target="_blank" class="news-link">分析｜AI产业维持高景气度、能源价格上升，10月进出口延续高增态势</a> [14] <font color='grey'>- 10时04分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=AI%E7%A7%91%E5%B9%BB%E7%94%B5%E5%BD%B1%20%E5%AD%A4%E9%B2%B8" target="_blank" class="news-link">一人打造78分钟硬科幻AI电影</a> [14] <font color='grey'>- 10时04分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%94%A8AI%E5%8E%9F%E5%88%9B68%E5%88%86%E9%92%9F%E7%A7%91%E5%B9%BB%E9%95%BF%E7%89%87" target="_blank" class="news-link">用AI原创68分钟科幻长片</a> [15] <font color='grey'>- 10时04分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=AI%E9%95%BF%E7%89%87%20%E6%B1%A4%E7%97%87" target="_blank" class="news-link">AI长片 汤症</a> [20] <font color='grey'>- 10时04分</font><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2739941" target="_blank" class="news-link">草根团队做出爆款AI漫剧持械入宋</a> [20] <font color='grey'>- 10时04分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">7</td>
+                    <td class="percentage">2.46%</td>
+                    <td class="titles">[雪球] <a href="https://xueqiu.com/s/NVDA" target="_blank" class="news-link">英伟达</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 10时04分</font><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3785613" target="_blank" class="news-link">美CPI超预期叠加美联储放鹰，美债重挫，美股指承压，英伟达两日跌10%，黄金大跌</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 10时04分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2530855" target="_blank" class="news-link">美股收盘：加息担忧压制三大指数齐跌 英伟达两天蒸发2.85万亿元</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 10时04分</font></div><br>[财联社热门] <a href="https://www.cls.cn/detail/2530729" target="_blank" class="news-link">分析师警告：黄仁勋若卸任CEO，英伟达估值或缩水近30%</a> [8] <font color='grey'>- 10时04分</font><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3785635" target="_blank" class="news-link">黄仁勋遭股东集体诉讼，指控涉嫌欺诈</a> [9] <font color='grey'>- 10时04分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7706338827526291977/" target="_blank" class="news-link">NVIDIA显卡定价失控AMD销量反超</a> [14] <font color='grey'>- 10时04分</font></div><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E8%8B%B1%E4%BC%9F%E8%BE%BE%E5%95%86%E5%9F%8E%E9%87%8D%E6%96%B0%E4%B8%8A%E6%9E%B65090%E6%98%BE%E5%8D%A1" target="_blank" class="news-link">英伟达商城重新上架5090显卡</a> [21] <font color='grey'>- 10时04分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">美国</td>
+                    <td class="count">7</td>
+                    <td class="percentage">2.46%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3785664" target="_blank" class="news-link">美国10月核心CPI环比上涨0.3%超预期，12月加息50基点预期骤然升温</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 10时04分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2530730" target="_blank" class="news-link">美国10月CPI通胀再度超预期 市场押注美联储12月加息已成定局</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 10时04分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_34443239" target="_blank" class="news-link">释新闻｜美国“战争部长”遭弹劾：哪八项指控？下台可能性有多大？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 10时04分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2530700" target="_blank" class="news-link">美国10月CPI数据超预期 三大股指期货集体转跌 | 今夜看点</a> [7] <font color='grey'>- 10时04分</font><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2530790" target="_blank" class="news-link">美国务卿：经济施压效果显著 没必要对伊朗开展大规模军事行动</a> [13] <font color='grey'>- 10时04分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_34447563" target="_blank" class="news-link">热点问答丨美国真不想再打伊朗了？</a> [20] <font color='grey'>- 10时04分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E9%87%91%E5%AD%90%E6%B6%B5%E5%8E%BB%E7%BE%8E%E5%9B%BD%E7%AD%BE%E8%AF%81%E5%A4%9A%E6%AC%A1%E8%A2%AB%E6%8B%92%23&amp;t=31&amp;band_rank=26&amp;Refer=top" target="_blank" class="news-link">金子涵去美国签证多次被拒</a> [26] <font color='grey'>- 10时04分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">claude Anthropic</td>
+                    <td class="count">4</td>
+                    <td class="percentage">1.4%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2530870" target="_blank" class="news-link">【早报】深夜巨震，美股、原油、黄金全线下挫；美联储加息押注升温，美债遭遇抛售潮；Anthropic IPO有新进展</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 10时04分</font></div><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3785657" target="_blank" class="news-link">冲击美国科技IPO融资纪录！Anthropic最高募资904亿美元、完全稀释估值1.4万亿美元</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 10时04分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2530667" target="_blank" class="news-link">Anthropic IPO目标市值约1.02万亿美元 发行及配售规模或达904亿美元</a> [6] <font color='grey'>- 10时04分</font><br>[知乎] <a href="https://www.zhihu.com/question/2103576505762820339" target="_blank" class="news-link">怎么看路透社表示 Anthropic IPO 估值下调到 1 万亿美元，目标募集 643.5 亿美元？</a> [12] <font color='grey'>- 10时04分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">国产 中国</td>
+                    <td class="count">4</td>
+                    <td class="percentage">1.4%</td>
+                    <td class="titles">[知乎] <a href="https://www.zhihu.com/question/2103547850734792735" target="_blank" class="news-link">梁家辉、高叶分别拿下影帝、影后，如何评价第 39 届中国电影金鸡奖获奖名单？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 10时04分</font><br>[抖音] <a href="https://www.douyin.com/hot/2739807" target="_blank" class="news-link">进博会见证中国产业链硬实力</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 10时04分</font><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=APEC%E4%B8%AD%E5%9B%BD%E5%B9%B4%E8%BF%8E%E6%9D%A5%E6%B7%B1%E5%9C%B3%E6%97%B6%E5%88%BB" target="_blank" class="news-link">APEC中国年迎来深圳时刻</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 10时04分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%B8%85%E5%8D%8E%E6%95%99%E6%8E%88%EF%BC%9A%E4%B8%AD%E5%9B%BD%E5%90%91%E4%B8%96%E7%95%8C%E8%BE%93%E5%87%BA%E5%87%A0%E5%8D%81%E4%B8%AA%E9%9C%B8%E6%80%BB" target="_blank" class="news-link">清华教授：中国向世界输出几十个霸总</a> [7] <font color='grey'>- 10时04分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">微软 Microsoft</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.7%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3785616" target="_blank" class="news-link">Anthropic招股文件刚发就撤！693亿美元融资细节意外泄露，英伟达、微软、台积电等集体押注260亿</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 10时04分</font><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2530817" target="_blank" class="news-link">微软股价应声跳水 Anthropic上市前夕推出AI办公套件</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 10时04分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">手机</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.7%</td>
+                    <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2103438593268238305" target="_blank" class="news-link">女子银行短信提醒突然被取消，卡里近26万元消失，手机曾不受控制黑屏闪烁，这一过程发生了什么？该如何防范？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 10时04分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%AB%98%E9%93%81%E5%BA%A7%E6%A4%85USB%E5%8F%A3%E5%85%85%E6%89%8B%E6%9C%BA%E8%B6%8A%E5%85%85%E8%B6%8A%E6%8E%89%E7%94%B5" target="_blank" class="news-link">高铁座椅USB口充手机越充越掉电</a> [16] <font color='grey'>- 10时04分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">科技</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.7%</td>
+                    <td class="titles"><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/SH603083" target="_blank" class="news-link">剑桥科技</a> [15] <font color='grey'>- 10时04分</font></div><br><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/SH600183" target="_blank" class="news-link">生益科技</a> [18] <font color='grey'>- 10时04分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">胖东来 于东来</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.35%</td>
+                    <td class="titles">[今日头条] <a href="https://www.toutiao.com/trending/7706363593050050091/" target="_blank" class="news-link">胖东来“日本产洗发水”疑云</a> [27] <font color='grey'>- 10时04分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>10</td>
+                    <td class="word">比亚迪 王传福</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.35%</td>
+                    <td class="titles">[知乎] <a href="https://www.zhihu.com/question/2102801912580067910" target="_blank" class="news-link">如何评价比亚迪大唐被曝存在轮毂出厂前后装反问题，比亚迪售后称确有部分批次发生该情况？</a> [11] <font color='grey'>- 10时04分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>11</td>
+                    <td class="word">宇树 王兴兴</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.35%</td>
+                    <td class="titles">[雪球] <a href="https://xueqiu.com/s/SH688836" target="_blank" class="news-link">宇树科技-W</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 10时04分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>12</td>
+                    <td class="word">芯片 光刻机</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.35%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2530675" target="_blank" class="news-link">确认！阿里巴巴芯片公司平头哥已递交上市申请</a> [12] <font color='grey'>- 10时04分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>13</td>
+                    <td class="word">月球 登月 火星 宇宙 飞船</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.35%</td>
+                    <td class="titles">[抖音] <a href="https://www.douyin.com/hot/2738568" target="_blank" class="news-link">人类有自己的毛茸茸宇宙</a> [22] <font color='grey'>- 10时04分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 20 条)</h3>
+            <h4>今日头条 (1 条)</h4><ul><li><a href="https://www.toutiao.com/trending/7706338827526291977/" target="_blank" class="news-link">NVIDIA显卡定价失控AMD销量反超</a> [14]</li></ul><h4>百度热搜 (2 条)</h4><ul><li><a href="https://www.baidu.com/s?wd=%E6%B8%85%E5%8D%8E%E6%95%99%E6%8E%88%EF%BC%9A%E4%B8%AD%E5%9B%BD%E5%90%91%E4%B8%96%E7%95%8C%E8%BE%93%E5%87%BA%E5%87%A0%E5%8D%81%E4%B8%AA%E9%9C%B8%E6%80%BB" target="_blank" class="news-link">清华教授：中国向世界输出几十个霸总</a> [7]</li><li><a href="https://www.baidu.com/s?wd=%E9%AB%98%E9%93%81%E5%BA%A7%E6%A4%85USB%E5%8F%A3%E5%85%85%E6%89%8B%E6%9C%BA%E8%B6%8A%E5%85%85%E8%B6%8A%E6%8E%89%E7%94%B5" target="_blank" class="news-link">高铁座椅USB口充手机越充越掉电</a> [16]</li></ul><h4>华尔街见闻 (3 条)</h4><ul><li><a href="https://wallstreetcn.com/articles/3785613" target="_blank" class="news-link">美CPI超预期叠加美联储放鹰，美债重挫，美股指承压，英伟达两日跌10%，黄金大跌</a> <font color='red'><strong>[2]</strong></font></li><li><a href="https://wallstreetcn.com/articles/3785635" target="_blank" class="news-link">黄仁勋遭股东集体诉讼，指控涉嫌欺诈</a> [9]</li><li><a href="https://wallstreetcn.com/articles/3785662" target="_blank" class="news-link">美国人民不是在反对AI，他们只是想睡个整觉</a> [10]</li></ul><h4>澎湃新闻 (1 条)</h4><ul><li><a href="https://m.thepaper.cn/newsDetail_forward_34447563" target="_blank" class="news-link">热点问答丨美国真不想再打伊朗了？</a> [20]</li></ul><h4>bilibili 热搜 (1 条)</h4><ul><li><a href="https://search.bilibili.com/all?keyword=APEC%E4%B8%AD%E5%9B%BD%E5%B9%B4%E8%BF%8E%E6%9D%A5%E6%B7%B1%E5%9C%B3%E6%97%B6%E5%88%BB" target="_blank" class="news-link">APEC中国年迎来深圳时刻</a> <font color='red'><strong>[5]</strong></font></li></ul><h4>财联社热门 (5 条)</h4><ul><li><a href="https://www.cls.cn/detail/2530870" target="_blank" class="news-link">【早报】深夜巨震，美股、原油、黄金全线下挫；美联储加息押注升温，美债遭遇抛售潮；Anthropic IPO有新进展</a> <font color='red'><strong>[1]</strong></font></li><li><a href="https://www.cls.cn/detail/2530855" target="_blank" class="news-link">美股收盘：加息担忧压制三大指数齐跌 英伟达两天蒸发2.85万亿元</a> <font color='red'><strong>[4]</strong></font></li><li><a href="https://www.cls.cn/detail/2530817" target="_blank" class="news-link">微软股价应声跳水 Anthropic上市前夕推出AI办公套件</a> <font color='red'><strong>[5]</strong></font></li><li><a href="https://www.cls.cn/detail/2530830" target="_blank" class="news-link">太空AI加速备战：SpaceX订购太阳能产线，星舰挑战首次“双回收”</a> [11]</li><li><a href="https://www.cls.cn/detail/2530790" target="_blank" class="news-link">美国务卿：经济施压效果显著 没必要对伊朗开展大规模军事行动</a> [13]</li></ul><h4>微博 (2 条)</h4><ul><li><a href="https://s.weibo.com/weibo?q=%23%E4%BA%AC%E5%BD%A9%E6%8B%8D%E6%A1%A3CityPair%23&amp;t=31&amp;band_rank=3&amp;Refer=top" target="_blank" class="news-link">京彩拍档CityPair</a> <font color='red'><strong>[3]</strong></font></li><li><a href="https://s.weibo.com/weibo?q=%23%E9%87%91%E5%AD%90%E6%B6%B5%E5%8E%BB%E7%BE%8E%E5%9B%BD%E7%AD%BE%E8%AF%81%E5%A4%9A%E6%AC%A1%E8%A2%AB%E6%8B%92%23&amp;t=31&amp;band_rank=26&amp;Refer=top" target="_blank" class="news-link">金子涵去美国签证多次被拒</a> [26]</li></ul><h4>抖音 (1 条)</h4><ul><li><a href="https://www.douyin.com/hot/2739941" target="_blank" class="news-link">草根团队做出爆款AI漫剧持械入宋</a> [20]</li></ul><h4>知乎 (2 条)</h4><ul><li><a href="https://www.zhihu.com/question/2103438593268238305" target="_blank" class="news-link">女子银行短信提醒突然被取消，卡里近26万元消失，手机曾不受控制黑屏闪烁，这一过程发生了什么？该如何防范？</a> <font color='red'><strong>[4]</strong></font></li><li><a href="https://www.zhihu.com/question/2103576505762820339" target="_blank" class="news-link">怎么看路透社表示 Anthropic IPO 估值下调到 1 万亿美元，目标募集 643.5 亿美元？</a> [12]</li></ul><h4>雪球 (2 条)</h4><ul><li><a href="https://xueqiu.com/s/SH603083" target="_blank" class="news-link">剑桥科技</a> [15]</li><li><a href="https://xueqiu.com/s/SH600183" target="_blank" class="news-link">生益科技</a> [18]</li></ul></div>
+        </body>
+        </html>
+        
